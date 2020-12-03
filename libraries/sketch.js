@@ -37,7 +37,7 @@ function draw() {
   
   
   for(i = 1; i < 2; i ++){
-     if (treble > 50) {
+     if (bass > 250) {
        //emit at 18250
       console.log('bass')
       //fill(255,0,0);

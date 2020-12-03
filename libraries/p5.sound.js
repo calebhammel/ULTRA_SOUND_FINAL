@@ -2542,8 +2542,8 @@ fft = function () {
     this.timeDomain = new Uint8Array(this.analyser.frequencyBinCount);
     // predefined frequency ranges, these will be tweakable
     this.bass = [
-      500,
-      600
+      225,
+      275
     ];
     this.lowMid = [
       601,
@@ -2558,8 +2558,8 @@ fft = function () {
       750
     ];
     this.treble = [
-      18500,
-      19957
+      17500,
+      18500
     ];
     // add this p5.SoundFile to the soundArray
     p5sound.soundArray.push(this);
